@@ -72,6 +72,9 @@ class BouncingBallVideoStreamTrack(VideoStreamTrack):
         frame.time_base = time_base
         self.cur_x_coordinate = xy[0]
         self.cur_y_coordinate = xy[1]
+        # cur_coordinates = (self.cur_x_coordinate,self.cur_y_coordinate)
+        # print("{} : {}".format(time.time()*1000,cur_coordinates))
+        # self.logger.info("curent-coordinates : {}".format(cur_coordinates))
         self.counter += 1
         return frame
 
