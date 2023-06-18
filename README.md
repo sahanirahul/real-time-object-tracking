@@ -1,4 +1,4 @@
-## Python Application README
+## Python WebRTC Application README
 
 This repository contains a Python application that utilizes python's WebRTC library 'aiortc' and 'open-cv' for P2P communication between a server and a client. The server generates video frames of a bouncing ball on a screen and sends them to the client, which receives the images and displays on the screen, creates a data channel with the server, calculates the coordinates of the ball in real-time and sends back to server through the data-channel. The server then calculates the error in current position of the ball and the received position from the client and logs the error.
 
